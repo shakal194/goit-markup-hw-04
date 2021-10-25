@@ -170,7 +170,6 @@ img {
 .contact-icon {
   margin-right: 10px;
   fill: currentColor;
-  /* vertical-align: middle; */
 }
 
 .contact-icon.email {
@@ -188,8 +187,6 @@ img {
 .hero {
   max-width: 1600px;
   margin: 0 auto;
-  /* margin-left: auto;
-  margin-right: auto; */
   padding: 200px 0;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero_bgc.jpg);
@@ -591,6 +588,10 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+.project-link {
+  display: block;
 }
 
 .project-link:hover,
